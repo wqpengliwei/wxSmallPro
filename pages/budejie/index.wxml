@@ -1,0 +1,22 @@
+<!--pages/budejie/index.wxml-->
+<view class='body'>
+  <view wx:for="{{topTabItems}}">
+    <view>{{item}}</view>
+  </view>
+  <view class='listItems' wx:for="{{listItems}}">
+    <view>{{item.text}}</view>
+    <block wx:if="{{item.image0!=''}}">
+      <image src='{{item.image0}}' bindtap='clickItem' data-url="{{item.videouri}}" bindload="imageLoad"  wx:for-index="index" data-index="{{ index }}" style="width:95%; height:{{ images[index].height }}rpx;"></image>
+    </block>
+    <block wx:elif="{{item.bimageuri!=''}}">
+      <image src='{{item.bimageuri}}' bindtap='clickItem' data-url="{{item.videouri}}" bindload="imageLoad" wx:for-index="index" data-index="{{ index }}" style="width:95%; height:{{ images[index].height }}rpx;"></image>
+    </block>
+  </view>
+  <!--mp4 run  -->
+  <block wx:if="{{videoShow}}">
+    <view class='videoClass' bindtap='clickVideo_v'>
+      <video src="{{videoUrl}}" controls bindtap='clickVideo'></video>
+    </view>
+  </block>
+
+</view>

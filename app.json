@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/test/wq",
+    
+    "pages/douban_list/index",
+    "pages/douban_detail/detail",
+    "pages/location/location",
+    "pages/weather/index",
+    "pages/budejie/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#c83127",
+    "navigationBarTitleText": "功能列表",
+    "navigationBarTextStyle": "white"
+  }
+}

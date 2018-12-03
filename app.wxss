@@ -1,0 +1,74 @@
+page {
+  font-family: Microsoft YaHei;
+  height: 100%;
+}
+
+/*common list*/
+.list-item {
+  position: relative;
+  overflow: hidden
+}
+
+/*index list*/
+.index-list-item {
+  background: #FFF;
+  padding: 15rpx 30rpx;
+  overflow: hidden;
+}
+.index-list-item:active {
+  background: #EEE;
+}
+.index-list-item .cover {
+  float: left;
+  width: 120rpx;
+  height: 160rpx;
+  overflow: hidden
+}
+.index-list-item .cover image.cover-img {
+  width: 120rpx;
+  height: 160rpx;
+}
+.index-list-item .content {
+  margin-left: 140rpx;
+}
+.index-list-item .title {
+  font-size: 35rpx;
+  display: inline-block;
+  height: 90rpx;
+  padding-top: 20rpx;
+  overflow: hidden;
+  font-family:FZShuTi;
+}
+.index-list-item .desc  {
+  display: block;
+  font-size: 30rpx;
+  padding-top: 10rpx;
+  color: #AAA;
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family:FZShuTi;
+}
+
+.refresh-footer {
+  text-align: center;
+  padding: 10rpx 0;
+}
+.w100{
+  width: 100%;
+}
+.h100{
+  height: 100%;
+}
+.w50{
+  width: 50%;
+}
+.h50{
+  height: 50%;
+}
+.absolute{
+  position: absolute;
+}
+.relative{
+  position: relative;
+}

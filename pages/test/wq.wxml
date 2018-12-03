@@ -1,0 +1,10 @@
+<view  class="swiperView w100 h100">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" vertical="{{vertical}}" circular="{{circular}}" bindchange="bindchange">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item class="">
+        <image src="{{item.imgUrl}}" class="w100 h100 " />
+        <text class='animation' style='right:{{rightMove}}px'>{{item.text}}</text>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

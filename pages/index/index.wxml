@@ -1,0 +1,20 @@
+<!--pages/index/index.wxml-->
+<view class='d1'>
+  <view class='indexImgItem' bindtap='goto_page' data-url="../douban_list/index">
+    <image src='../../images/dou.png'></image>
+    <view>豆瓣搜书</view>
+  </view>
+  <view class='indexImgItem' bindtap='goto_page' data-url="../location/location">
+    <image src='../../images/dw.png'></image>
+    <view>一键定位</view>
+  </view>
+  <view class='indexImgItem' bindtap='goto_page' data-url="../weather/index">
+    <image src='../../images/tq.png'></image>
+    <view>天气查询</view>
+  </view>
+  <view class='indexImgItem' bindtap='goto_page' data-url="../budejie/index">
+    <image src='../../images/bdj.png'></image>
+    <view>仿不得姐</view>
+  </view>
+
+</view>
